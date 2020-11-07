@@ -68,7 +68,6 @@ class RockPaperScissor
 			String comp_choice= choice[random_value];
 			String comp_choice1= Character.toString(comp_choice.charAt(0));
 			
-			System.out.println(user_choice+" "+comp_choice); 
 			if(user_choice.equals(comp_choice) || user_choice.equals(comp_choice1))
 			{
 				System.out.println("Draw !");
